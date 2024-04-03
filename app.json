@@ -5,7 +5,14 @@
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app needs access to your camera inorder to take photos of your fav places"
+        }
+      ]
     ]
-  },
-  "name": "react_native_fav_places_app"
+  }
 }
